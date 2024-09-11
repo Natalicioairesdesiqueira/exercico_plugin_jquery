@@ -1,3 +1,5 @@
+//codigo foi movido do html para o js
+
 $(document).ready(function () {
     $('#carousel-imagens').slick({
         autoplay: true,
@@ -5,7 +7,7 @@ $(document).ready(function () {
     })
 })
 
-
+// corrigindo a escrita para o ingles mascara/mask
 
 $('#telefone').mask('(00) 00000-0000', {
     placeholder: '(DDD) 12345-6789'
@@ -18,6 +20,8 @@ $('#cpf').mask('000.000.000-00', {
 $('#cep').mask('00000-000', {
     placeholder: '012345-678'
 })
+
+// corrigindo a escrita para o ingles requerido/required
 
 $('form').validate({
     rules: {
